@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS students (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    roll_no TEXT UNIQUE NOT NULL,
+    class_name TEXT NOT NULL,
+    marks REAL NOT NULL,
+    contact TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
