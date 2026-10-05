@@ -1,0 +1,13 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "description": "Student Management System Full Stack Web Application",
+  "main": "app.py",
+  "scripts": {
+    "start": "python app.py",
+    "dev": "nodemon --watch app.py --exec python app.py"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+}
+}
